@@ -1,0 +1,44 @@
+<meta name="description" content="wwy 的task2作业">
+<form action="/login" method="post">
+  <div>
+        <label for=“headportrait”>头像</label>
+        <input type="file" name=“headportrait”>
+
+  </div>
+  <div>
+        <label for="nickname">昵称</label>
+        <input class="txt" type="text" name="nickname">
+  </div>
+  <div>
+        <label for="education">学历</label>
+        <select id="education">
+            <option value="0" selected>大专</option>
+            <option value="1">本科</option>
+        </select>
+  </div>
+  <div>
+        <label for="gender">性别</label>
+        <input class="rd" type="radio" name="gender" id="rd_0" value="male" checked>
+        <label for="rd_0">男</label>
+        <input class="rd" type="radio" name="gender" id="rd_1" value="female">
+        <label for="rd_1">女</label>
+  </div>
+  <div>
+        <label for="hobbies">爱好</label>
+        <input class="cb" type="checkbox" name="hobbies" id="cb_0" value="movie" checked>
+        <label for="cb_0">电影</label>
+        <input class="cb" type="checkbox" name="hobbies" id="cb_1" value="photography">
+        <label for="cb_1">摄影</label>
+        <input class="cb" type="checkbox" name="hobbies" id="cb_2" value="music">
+        <label for="cb_2">音乐</label>
+        <input class="cb" type="checkbox" name="hobbies" id="cb_3" value="read" checked>
+        <label for="cb_3">阅读</label>
+  </div>
+  <div>
+        <label for="signature">签名</label>
+        <textarea name="signature" rows="4"></textarea>
+  </div>
+  <div>
+        <button type="Preservation">保存</button>
+   </div>
+</form>
